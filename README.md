@@ -45,14 +45,3 @@ Requirements
     Redis latest version
     PostgreSQL (or your preferred database system)
 
-Contributing
-
-We welcome contributions to enhance the functionality and user experience of the GitHub Repo Search Rails App. To contribute, please follow the guidelines outlined in the CONTRIBUTING.md file.
-License
-
-The GitHub Repo Search Rails App is open-source and available under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
-Contact
-
-For any queries or support, feel free to reach out to our team at contact@example.com. We appreciate your feedback and suggestions.
-
-Happy searching and coding! 🚀
