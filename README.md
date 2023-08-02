@@ -25,7 +25,7 @@ How It Works
 
     Repository Saving:
         When searching for repositories through the view, the controller also saves the found repositories to the app's database.
-        This feature enables users to keep track of their favorite repositories for future reference.
+        This feature runs on background using a Sidekiq job.
 
 # Installation
 
@@ -45,3 +45,7 @@ Requirements
     Redis latest version
     PostgreSQL (or your preferred database system)
 
+API endpoints
+
+    GET '/api/v1/search?username=jean-felipe' => Returns repos from given username.
+    POST '/api/v1/save-repo' => Creates a new repository locally, based on the given parameters (:name, :stars, :github_id)
