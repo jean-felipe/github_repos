@@ -31,8 +31,8 @@ How It Works
 
 Follow these steps to set up the GitHub Repo Search Rails App on your local machine:
 
-    Clone the repository: git clone https://github.com/your_username/github-repo-search-rails-app.git
-    Change into the project directory: cd github-repo-search-rails-app
+    Clone the repository: git clone https://github.com/jean-felipe/github_repos.git
+    Change into the project directory: cd github_repos
     Install dependencies: bundle install
     Set up the database: rails db:migrate
     Start the Rails server: rails server
@@ -42,6 +42,7 @@ Requirements
 
     Ruby 3.0.0 or higher
     Rails 7.0.0 or higher
+    Redis latest version
     PostgreSQL (or your preferred database system)
 
 Contributing
